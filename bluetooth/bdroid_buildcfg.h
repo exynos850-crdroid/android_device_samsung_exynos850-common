@@ -31,6 +31,9 @@ static inline const char* getBTDefaultName()
     if (!strcmp("m12", device))
         return "Galaxy M12";
 
+    else if (!strcmp("a12s", device))
+        return "Galaxy A12";
+
     return "";
 }
 
